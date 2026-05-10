@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Một điều anh muốn nói</title>
+    <meta
+      name="description"
+      content="Một trang thư dịu dàng, chân thành và có chuyển động dành cho lời tỏ tình."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="ambient ambient--one"></div>
+      <div class="ambient ambient--two"></div>
+      <div class="ambient ambient--three"></div>
+      <div class="grid-overlay"></div>
+      <div class="cursor-glow" aria-hidden="true"></div>
+      <div class="romance-ribbon romance-ribbon--one" aria-hidden="true"></div>
+      <div class="romance-ribbon romance-ribbon--two" aria-hidden="true"></div>
+      <div class="love-drift" aria-hidden="true">
+        <span class="floating-heart floating-heart--one"></span>
+        <span class="floating-heart floating-heart--two"></span>
+        <span class="floating-heart floating-heart--three"></span>
+        <span class="floating-heart floating-heart--four"></span>
+        <span class="floating-heart floating-heart--five"></span>
+        <span class="floating-heart floating-heart--six"></span>
+      </div>
+
+      <header class="site-header reveal">
+        <a class="brand" href="#top">
+          <span class="brand-mark"></span>
+          Một điều anh muốn nói
+        </a>
+        <div class="site-header__actions">
+          <nav class="site-nav">
+            <a href="#story">Cảm xúc</a>
+            <a href="#heartline">Thương em</a>
+            <a href="#letter">Lời nhắn</a>
+          </nav>
+          <button
+            class="music-toggle"
+            type="button"
+            data-audio-toggle
+            aria-pressed="false"
+            aria-label="Bật nhạc nền"
+          >
+            <span class="music-toggle__dot" aria-hidden="true"></span>
+            <span class="music-toggle__label">Bật nhạc</span>
+          </button>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="section hero">
+          <div class="hero-copy reveal" data-parallax="0.09">
+            <p class="eyebrow">Một góc nhỏ, thay cho lời nói khó nhất</p>
+            <h1>
+              Không phải khoảnh khắc nào cũng cần thật nhiều lời.
+              <span>Chỉ cần đúng người để anh muốn chân thành hơn mỗi ngày.</span>
+            </h1>
+            <p class="hero-text">
+              Từ những lần trò chuyện rất bình thường, mọi thứ trong anh bắt đầu
+              khác đi. Anh thấy háo hức hơn khi chờ tin nhắn, thấy nhẹ lòng hơn
+              khi nghe giọng nói, và thấy những ngày bận rộn bỗng có thêm lý do
+              để mong chờ.
+            </p>
+            <p class="hero-text hero-text--soft">
+              Anh thích cách em xuất hiện rất tự nhiên nhưng lại khiến trái tim
+              anh không còn bình thường được nữa. Có những cảm xúc càng giữ im
+              lặng càng lớn dần, và anh nghĩ đã đến lúc nói ra bằng tất cả sự tử
+              tế anh có.
+            </p>
+            <p class="hero-whisper">
+              Càng nói chuyện với em, anh càng thấy lòng mình dịu lại và nghiêng
+              về em thêm một chút.
+            </p>
+            <div class="hero-actions">
+              <a class="button button--primary" href="#story">Kéo xuống để đọc</a>
+              <button class="button button--ghost" type="button" data-open-letter="gentle">
+                Mở lời nhắn
+              </button>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal" data-parallax="0.15">
+            <div class="glass-card tilt-card" data-tilt>
+              <span class="card-tag depth-1">Điều anh nhận ra</span>
+              <p class="card-quote depth-3">
+                "Có những người xuất hiện không ồn ào, nhưng đủ để thay đổi cách
+                anh nhìn cả một ngày."
+              </p>
+              <p class="card-note depth-2">
+                Từ lúc có em trong những câu chuyện thường ngày, anh bắt đầu mong
+                nhiều hơn một sự hiện diện. Anh mong được ở gần, được hiểu và
+                được thật lòng với em.
+              </p>
+            </div>
+
+            <div class="floating-note tilt-card" data-tilt>
+              <span class="floating-note__label depth-1">Dành cho em</span>
+              <p class="depth-2">
+                Anh không muốn nói điều này theo cách qua loa. Nếu đã mở lòng,
+                anh muốn nó được đặt trong một không gian chỉn chu, đẹp và đủ
+                nghiêm túc để em biết: cảm xúc này là thật.
+              </p>
+            </div>
+          </div>
+
+          <a class="scroll-cue" href="#story" aria-label="Cuộn xuống">
+            <span></span>
+          </a>
+        </section>
+
+        <section class="section story" id="story">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Chuyện bắt đầu như thế</p>
+            <h2>Từng chi tiết nhỏ, lại là lý do lớn.</h2>
+          </div>
+
+          <div class="story-grid">
+            <article class="story-card tilt-card reveal" data-tilt>
+              <span class="story-index depth-1">01</span>
+              <h3 class="depth-2">Sự hiện diện</h3>
+              <p class="depth-2">
+                Có những người chỉ cần xuất hiện là đã khiến mọi thứ quanh anh
+                dịu lại. Em là kiểu người như thế: không cần cố gắng gây chú ý,
+                nhưng vẫn luôn ở lại trong suy nghĩ của anh lâu hơn một chút.
+              </p>
+            </article>
+
+            <article class="story-card tilt-card reveal" data-tilt>
+              <span class="story-index depth-1">02</span>
+              <h3 class="depth-2">Sự đồng điệu</h3>
+              <p class="depth-2">
+                Anh thích cảm giác được nói chuyện với em, vì nó không gượng ép.
+                Những câu chuyện nhỏ bỗng trở nên thú vị, còn những điều bình
+                thường lại mang màu sắc riêng chỉ vì em ở đó.
+              </p>
+            </article>
+
+            <article class="story-card tilt-card reveal" data-tilt>
+              <span class="story-index depth-1">03</span>
+              <h3 class="depth-2">Sự nghiêm túc</h3>
+              <p class="depth-2">
+                Đây không phải một phút rung động nhất thời. Anh đã nghĩ khá
+                nhiều trước khi làm ra trang này, chỉ vì muốn em hiểu rằng anh
+                đang nói bằng tất cả sự nghiêm túc mà anh có.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section heartline" id="heartline">
+          <div class="heartline-grid">
+            <div class="heart-stage tilt-card reveal" data-tilt>
+              <span class="heart-stage__label depth-1">Nhịp tim của anh</span>
+              <div class="heart-scene depth-2">
+                <span class="heart-glow heart-glow--outer" aria-hidden="true"></span>
+                <span class="heart-glow heart-glow--inner" aria-hidden="true"></span>
+                <span class="heart-orbit heart-orbit--outer" aria-hidden="true"></span>
+                <span class="heart-orbit heart-orbit--inner" aria-hidden="true"></span>
+                <span class="heart-beam" aria-hidden="true"></span>
+                <span class="heart-spark heart-spark--one" aria-hidden="true"></span>
+                <span class="heart-spark heart-spark--two" aria-hidden="true"></span>
+                <span class="heart-spark heart-spark--three" aria-hidden="true"></span>
+                <span class="heart-spark heart-spark--four" aria-hidden="true"></span>
+
+                <svg class="heart-crystal heart-crystal--core" viewBox="0 0 200 180" aria-hidden="true">
+                  <path d="M100 164C35 122 14 90 14 54C14 27 35 12 56 12C77 12 90 27 100 42C110 27 123 12 144 12C165 12 186 27 186 54C186 90 165 122 100 164Z"></path>
+                </svg>
+
+                <svg class="heart-crystal heart-crystal--body" viewBox="0 0 200 180" aria-hidden="true">
+                  <defs>
+                    <linearGradient id="heart-fill-gradient" x1="36" y1="18" x2="170" y2="158" gradientUnits="userSpaceOnUse">
+                      <stop offset="0%" stop-color="#fff4ee"></stop>
+                      <stop offset="42%" stop-color="#f4b5c1"></stop>
+                      <stop offset="100%" stop-color="#d77592"></stop>
+                    </linearGradient>
+                  </defs>
+                  <path fill="url(#heart-fill-gradient)" d="M100 164C35 122 14 90 14 54C14 27 35 12 56 12C77 12 90 27 100 42C110 27 123 12 144 12C165 12 186 27 186 54C186 90 165 122 100 164Z"></path>
+                </svg>
+
+                <svg class="heart-crystal heart-crystal--outline" viewBox="0 0 200 180" aria-hidden="true">
+                  <path fill="none" stroke="currentColor" vector-effect="non-scaling-stroke" d="M100 164C35 122 14 90 14 54C14 27 35 12 56 12C77 12 90 27 100 42C110 27 123 12 144 12C165 12 186 27 186 54C186 90 165 122 100 164Z"></path>
+                </svg>
+              </div>
+
+              <div class="heart-caption heart-caption--one depth-1">
+                <strong>Dịu dàng</strong>
+                <span>Em làm mọi điều trong anh chậm lại và mềm hơn.</span>
+              </div>
+              <div class="heart-caption heart-caption--two depth-1">
+                <strong>Mong nhớ</strong>
+                <span>Chỉ cần vắng em một chút thôi, ngày của anh đã khác rồi.</span>
+              </div>
+              <div class="heart-caption heart-caption--three depth-1">
+                <strong>Ưu tiên</strong>
+                <span>Trong rất nhiều điều, trái tim anh vẫn âm thầm nghiêng về em.</span>
+              </div>
+            </div>
+
+            <div class="heart-copy">
+              <div class="section-heading reveal">
+                <p class="eyebrow">Điều anh muốn nói nhiều hơn</p>
+                <h2>Thích em là khi những điều rất bình thường cũng trở nên dịu dàng hơn.</h2>
+              </div>
+              <p class="reveal">
+                Anh thương cách em khiến một ngày mệt mỏi bỗng nhẹ đi, thương
+                cả những điều em vô tình làm mà không biết rằng nó đã ở lại trong
+                anh rất lâu. Có lẽ cảm giác đẹp nhất không phải là rung động thật
+                mạnh, mà là cứ mỗi ngày trôi qua, anh lại chắc chắn hơn rằng anh
+                thật sự muốn ở gần em.
+              </p>
+
+              <div class="devotion-grid">
+                <article class="devotion-card tilt-card reveal" data-tilt>
+                  <span class="moment-label depth-1">Anh thương</span>
+                  <h3 class="depth-2">Cách em làm mọi thứ dịu lại</h3>
+                  <p class="depth-2">
+                    Ngay cả khi em không cố gắng làm gì đặc biệt, sự xuất hiện
+                    của em vẫn đủ để khiến anh thấy yên hơn, vui hơn, và muốn tử
+                    tế với thế giới này hơn.
+                  </p>
+                </article>
+
+                <article class="devotion-card tilt-card reveal" data-tilt>
+                  <span class="moment-label depth-1">Anh thương</span>
+                  <h3 class="depth-2">Cả những lúc em mệt</h3>
+                  <p class="depth-2">
+                    Không chỉ là lúc em rạng rỡ. Anh còn thương cả những khi em
+                    mỏi mệt, im lặng, và chỉ cần một người đủ kiên nhẫn ở cạnh để
+                    lắng nghe em thêm một chút.
+                  </p>
+                </article>
+
+                <article class="devotion-card tilt-card reveal" data-tilt>
+                  <span class="moment-label depth-1">Anh thương</span>
+                  <h3 class="depth-2">Một tương lai có em ở đó</h3>
+                  <p class="depth-2">
+                    Anh đã bắt đầu tưởng tượng về những ngày rất bình thường:
+                    cùng đi dạo, cùng kể cho nhau nghe chuyện nhỏ, cùng bước chậm
+                    qua cuộc sống mà vẫn thấy ấm lòng vì có nhau.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section love-notes">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Những lời yêu thương anh giữ mãi</p>
+            <h2>Anh không chỉ thích em ở một điểm nào đó. Anh thương em ở rất nhiều điều.</h2>
+          </div>
+
+          <div class="love-grid">
+            <article class="love-card tilt-card reveal" data-tilt>
+              <span class="love-card__number depth-1">01</span>
+              <h3 class="depth-2">Anh thương nụ cười của em</h3>
+              <p class="depth-2">
+                Vì mỗi lần em cười, mọi thứ trong anh như chậm lại một nhịp. Anh
+                không biết gọi tên cảm giác đó là gì ngoài việc nó rất đẹp.
+              </p>
+            </article>
+
+            <article class="love-card tilt-card reveal" data-tilt>
+              <span class="love-card__number depth-1">02</span>
+              <h3 class="depth-2">Anh thương sự dịu dàng trong em</h3>
+              <p class="depth-2">
+                Không ồn ào, không phô bày, nhưng đủ tinh tế để người đối diện
+                cảm nhận được rằng em luôn mang đến sự dễ chịu rất riêng.
+              </p>
+            </article>
+
+            <article class="love-card tilt-card reveal" data-tilt>
+              <span class="love-card__number depth-1">03</span>
+              <h3 class="depth-2">Anh thương cả những điều em chưa nói</h3>
+              <p class="depth-2">
+                Có những cảm xúc không cần thành lời ngay lập tức. Anh vẫn muốn
+                kiên nhẫn lắng nghe, vì anh nghĩ trái tim em xứng đáng được hiểu
+                theo cách thật chậm và thật kỹ.
+              </p>
+            </article>
+
+            <article class="love-card tilt-card reveal" data-tilt>
+              <span class="love-card__number depth-1">04</span>
+              <h3 class="depth-2">Anh thương cả những ngày về sau</h3>
+              <p class="depth-2">
+                Nếu có thể, anh muốn dành sự quan tâm này không chỉ cho hôm nay,
+                mà cho cả những ngày sau đó nữa, khi mọi rung động đã trở thành
+                một sự gắn bó thật sự.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section moments" id="moments">
+          <div class="moments-copy reveal">
+            <p class="eyebrow">Lý do khiến anh rung động</p>
+            <h2>
+              Không phải vì một điều quá lớn.
+              <span>Mà vì rất nhiều điều nhỏ đều mang hình bóng em.</span>
+            </h2>
+            <p>
+              Có thể là cách em lắng nghe. Có thể là cách em cười. Cũng có thể
+              chỉ là cách em khiến anh muốn trở thành một phiên bản tốt hơn.
+              Từng chút một, em đã đi vào trái tim anh theo cách tự nhiên nhất.
+            </p>
+          </div>
+
+          <div class="moment-stack">
+            <article class="moment-card tilt-card reveal" data-tilt>
+              <span class="moment-label depth-1">Khoảnh khắc</span>
+              <h3 class="depth-2">Một tin nhắn đến đúng lúc</h3>
+              <p class="depth-2">
+                Có những ngày rất dài, nhưng chỉ cần một dòng từ em là đủ để mọi
+                thứ sáng lên thêm một chút.
+              </p>
+            </article>
+
+            <article class="moment-card tilt-card reveal" data-tilt>
+              <span class="moment-label depth-1">Ấn tượng</span>
+              <h3 class="depth-2">Một sự tinh tế không cần phô bày</h3>
+              <p class="depth-2">
+                Anh quý cách em cư xử với mọi người và với chính bản thân em. Nó
+                khiến cảm xúc này không chỉ là thích, mà còn là trân trọng.
+              </p>
+            </article>
+
+            <article class="moment-card tilt-card reveal" data-tilt>
+              <span class="moment-label depth-1">Mong muốn</span>
+              <h3 class="depth-2">Một cơ hội để ở gần nhau hơn</h3>
+              <p class="depth-2">
+                Anh không cần điều gì quá vội. Chỉ cần một cơ hội để hiểu em
+                thêm, nghiêm túc và rõ ràng.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section promise">
+          <div class="promise-shell tilt-card reveal" data-tilt>
+            <div class="orbit depth-1" aria-hidden="true">
+              <span class="orbit-ring orbit-ring--outer"></span>
+              <span class="orbit-ring orbit-ring--inner"></span>
+              <span class="orbit-core"></span>
+            </div>
+            <div class="promise-copy">
+              <p class="eyebrow depth-1">Điều anh thực sự muốn</p>
+              <h2 class="depth-2">
+                Nếu em cho phép, anh muốn bước vào thế giới của em bằng sự tử tế,
+                kiên nhẫn và nghiêm túc.
+              </h2>
+              <p class="depth-2">
+                Anh không hứa những điều hoa mỹ đến mức xa vời. Anh chỉ muốn mỗi
+                ngày đều đối xử với em bằng sự chân thành, lắng nghe em kỹ hơn,
+                quan tâm em rõ ràng hơn, và để em thấy rằng cảm xúc này xứng đáng
+                được tin.
+              </p>
+              <p class="depth-2">
+                Anh thích em. Không hời hợt. Không nhất thời. Mà là một cảm giác
+                đủ dịu dàng để nâng niu, và đủ nghiêm túc để bước tiếp nếu em cho
+                anh cơ hội.
+              </p>
+              <button class="button button--primary depth-2" type="button" data-open-letter="confession">
+                Nghe anh nói nhé
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="section closing" id="letter">
+          <div class="closing-card tilt-card reveal" data-tilt>
+            <p class="eyebrow depth-1">Lời cuối</p>
+            <h2 class="depth-2">Nếu em cũng thấy trái tim em khẽ nghiêng đi, cho anh bắt đầu nhé?</h2>
+            <p class="depth-2">
+              Không cần trả lời ngay. Chỉ cần em biết rằng ở đây có một người
+              đang dành cho em cảm xúc rất đẹp, rất thật, và đủ nghiêm túc để
+              nói ra.
+            </p>
+            <p class="depth-2">
+              Nếu em muốn, mình bắt đầu từ những điều đơn giản nhất: một cuộc
+              hẹn nhẹ nhàng, một buổi trò chuyện dài hơn, hay chỉ là cho anh cơ
+              hội được hiểu em thêm bằng tất cả sự chân thành.
+            </p>
+            <button class="button button--ghost depth-2" type="button" data-open-letter="private">
+              Mở bức thư riêng
+            </button>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>Dành riêng cho em, bằng tất cả sự chân thành.</p>
+      </footer>
+    </div>
+
+    <div class="letter-modal" aria-hidden="true" data-letter-mode="gentle">
+      <div class="letter-backdrop" data-close-letter></div>
+      <section
+        class="letter-dialog tilt-card"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="letter-title"
+        tabindex="-1"
+        data-tilt
+      >
+        <button class="modal-close" type="button" data-close-letter aria-label="Đóng">
+          ×
+        </button>
+        <div class="letter-fx" aria-hidden="true">
+          <span class="letter-fx__halo"></span>
+          <span class="letter-fx__veil"></span>
+
+          <span class="letter-petal letter-petal--one"></span>
+          <span class="letter-petal letter-petal--two"></span>
+          <span class="letter-petal letter-petal--three"></span>
+          <span class="letter-petal letter-petal--four"></span>
+
+          <span class="letter-pulse-line"></span>
+          <svg class="letter-heart-mark" viewBox="0 0 200 180">
+            <path d="M100 164C35 122 14 90 14 54C14 27 35 12 56 12C77 12 90 27 100 42C110 27 123 12 144 12C165 12 186 27 186 54C186 90 165 122 100 164Z"></path>
+          </svg>
+
+          <span class="letter-star letter-star--one"></span>
+          <span class="letter-star letter-star--two"></span>
+          <span class="letter-star letter-star--three"></span>
+          <span class="letter-star letter-star--four"></span>
+          <span class="letter-star letter-star--five"></span>
+        </div>
+        <div class="letter-sheet">
+          <div class="letter-topline depth-1">
+            <span class="letter-seal"></span>
+            <span class="letter-topline__text">chỉ dành riêng cho em</span>
+          </div>
+          <p class="eyebrow depth-1" data-letter-eyebrow>Một lời nhắn nhỏ</p>
+          <h2 id="letter-title" class="depth-2" data-letter-title>Anh không muốn lỡ mất em.</h2>
+          <div class="letter-copy depth-2" data-letter-copy>
+            <p>
+              Có những điều nếu cứ giữ mãi trong lòng thì sẽ thành tiếc nuối.
+              Anh viết những dòng này chỉ vì không muốn bỏ lỡ một người khiến
+              anh rung động theo cách rất dịu dàng.
+            </p>
+            <p>
+              Anh quý cảm giác được nói chuyện với em, quý cả cách em làm những
+              ngày bình thường trở nên dễ thương hơn rất nhiều.
+            </p>
+          </div>
+          <p class="letter-signoff depth-3" data-letter-signoff>
+            Nếu em muốn, cho anh một cơ hội để bước gần em hơn nhé?
+          </p>
+
+          <div class="letter-response depth-2">
+            <p class="letter-response__label" data-letter-prompt>
+              Nếu em thấy thoải mái, mình cho nhau một cơ hội nhỏ để gần nhau hơn nhé?
+            </p>
+            <div class="letter-response__actions">
+              <button class="button button--primary button--choice" type="button" data-letter-answer="yes">
+                Em đồng ý
+              </button>
+              <button class="button button--soft button--choice" type="button" data-letter-answer="no">
+                Em cần thêm thời gian
+              </button>
+            </div>
+            <p class="letter-response__feedback" data-letter-feedback aria-live="polite"></p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

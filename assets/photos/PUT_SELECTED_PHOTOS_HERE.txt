@@ -1,0 +1,7 @@
+Place the selected photos here using these filenames:
+
+photo-01.jpg
+photo-02.jpg
+photo-03.jpg
+
+If you use .png or different names, update the paths in index.html.
